@@ -15,7 +15,7 @@ Our mission is to bridge technology and nature, making plant analysis accessible
 🎥 **Watch Leaf Sens in Action:**  
 Check out our demo video to see how Leaf Sens instantly identifies plant species and detects health issues in real-time.  
 
-[![Leaf Sens Demo](./frontend/public/Leaf%20Sens.mp4)
+[Watch Leaf Sens Demo](./frontend/public/Leaf%20Sens.mp4)
 
 ---
 

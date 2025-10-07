@@ -1,0 +1,86 @@
+<nav class="navbar navbar-expand-lg bg-transparent fixed-top home-navbar">
+  <div class="container container-narrow">
+    <a class="navbar-brand fw-bold" routerLink="/">LeafSens</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#homeNavbar" aria-controls="homeNavbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="homeNavbar">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link home-nav-link" href="#">About</a></li>
+        <li class="nav-item"><a class="nav-link home-nav-link" href="#">Pricing</a></li>
+        <li class="nav-item"><a class="nav-link home-nav-link" href="#">Features</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="navbar-spacer"></div>
+
+<section class="min-vh-100 d-flex align-items-center py-4">
+  <div class="container container-narrow">
+    <div class="row align-items-center gy-5">
+      <div class="col-12 col-lg-7">
+        <div class="pe-lg-4">
+          <span class="badge rounded-pill mb-3" style="background: rgba(182,206,180,.22); color:#234;">AI-powered</span>
+          <h1 class="display-4 fw-semibold mb-3" style="letter-spacing:-0.02em;">
+            Detect leaf diseases with confidence
+          </h1>
+          <p class="lead text-muted-leaf mb-4">
+            Upload a leaf photo to identify potential diseases using our lightweight
+            computer vision model. Get instant, actionable insights for healthier plants.
+          </p>
+          <div class="d-flex flex-wrap gap-3">
+            <a class="btn btn-leaf btn-lg px-4" routerLink="/upload">Get started</a>
+            <a class="btn btn-outline-secondary btn-lg px-4" href="#how-it-works">Learn more</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-5">
+        <div class="card-leaf p-4 p-md-5 h-100">
+          <div class="ratio ratio-1x1 rounded-4 overflow-hidden" style="background: linear-gradient(135deg, rgba(182,206,180,.25), rgba(182,206,180,.05));">
+            <div class="d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="text-center">
+                <div class="mb-3">
+                  <svg width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2C7 2 3 6 3 11c0 5 4 9 9 9s9-4 9-9c0-.34-.02-.67-.06-1" stroke="#6b8f6a" stroke-width="1.5" stroke-linecap="round"/>
+                    <path d="M20 4s-6 1-10 5-4 10-4 10 6-1 10-5S20 4 20 4Z" stroke="#6b8f6a" stroke-width="1.5" stroke-linecap="round"/>
+                  </svg>
+                </div>
+                <h5 class="mb-1">Ready to analyze</h5>
+                <p class="text-muted-leaf mb-0">Drop a photo on the next screen to begin</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="how-it-works" class="py-5">
+  <div class="container container-narrow">
+    <div class="row g-4">
+      <div class="col-12 col-md-4">
+        <div class="h-100 p-4 card-leaf">
+          <h6 class="text-uppercase text-muted mb-2" style="letter-spacing:.08em;">Step 1</h6>
+          <h5 class="mb-2">Upload leaf photo</h5>
+          <p class="mb-0 text-muted-leaf">Use a clear, well-lit image focusing on the affected area.</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="h-100 p-4 card-leaf">
+          <h6 class="text-uppercase text-muted mb-2" style="letter-spacing:.08em;">Step 2</h6>
+          <h5 class="mb-2">AI detection</h5>
+          <p class="mb-0 text-muted-leaf">Our model highlights likely diseases and confidence levels.</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="h-100 p-4 card-leaf">
+          <h6 class="text-uppercase text-muted mb-2" style="letter-spacing:.08em;">Step 3</h6>
+          <h5 class="mb-2">Care guidance</h5>
+          <p class="mb-0 text-muted-leaf">Receive tips to treat issues and keep plants thriving.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

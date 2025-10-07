@@ -1,0 +1,43 @@
+/* Minimal component-scoped tweaks to complement global theme */
+.badge {
+  backdrop-filter: saturate(1.2) blur(2px);
+}
+
+@media (min-width: 992px) {
+  h1.display-4 {
+    font-size: 3.25rem;
+  }
+}
+
+.ratio {
+  border-radius: 1rem;
+}
+
+.btn-leaf {
+  background-color: #566b60;
+  color: white;
+}
+
+/* Fixed transparent navbar styling (Bootstrap-based) */
+.home-navbar {
+  backdrop-filter: saturate(1.1) blur(6px);
+  --bs-navbar-toggler-border-color: rgba(86,107,96,0.3);
+  --bs-navbar-color: #566b60;
+  --bs-navbar-hover-color: #3f5149;
+  --bs-navbar-brand-color: #566b60;
+  --bs-navbar-brand-hover-color: #3f5149;
+  border-bottom: 1px solid rgba(86,107,96,0.15);
+  min-height: 4rem; /* slightly taller */
+}
+
+.home-nav-link {
+  color: #566b60;
+}
+
+.home-nav-link:hover {
+  color: #3f5149;
+}
+
+.navbar-spacer {
+  height: 4.25rem; /* offset for fixed navbar height */
+}

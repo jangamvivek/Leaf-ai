@@ -1,0 +1,21 @@
+.dropzone {
+  border: 2px dashed var(--leaf-border);
+  border-radius: 16px;
+  transition: border-color .2s ease, background-color .2s ease;
+  background-color: var(--leaf-surface);
+}
+
+.dropzone.dragover {
+  border-color: var(--leaf-accent);
+  background-color: rgba(182, 206, 180, 0.1);
+}
+
+.prompt-textarea {
+  border-radius: 14px;
+  border-color: var(--leaf-border);
+}
+
+.btn-leaf {
+  background-color: #566b60;
+  color: white;
+}

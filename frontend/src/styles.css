@@ -1,0 +1,47 @@
+/* Global light theme and variables */
+:root {
+  --leaf-accent: #B6CEB4;
+  --leaf-accent-600: #9dbc9a;
+  --leaf-text: #1f2a24;
+  --leaf-muted-text: #5d6b63;
+  --leaf-bg: #fbfdfb; /* subtle greenish white */
+  --leaf-surface: #ffffff;
+  --leaf-border: #e6efe6;
+  --leaf-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: radial-gradient(1200px 800px at 80% -10%, rgba(182, 206, 180, 0.18), transparent),
+              radial-gradient(1000px 700px at -10% 90%, rgba(182, 206, 180, 0.12), transparent),
+              var(--leaf-bg);
+  color: var(--leaf-text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.btn-leaf {
+  --bs-btn-color: #3e8960;
+  --bs-btn-bg: var(--leaf-accent);
+  --bs-btn-border-color: var(--leaf-accent);
+  --bs-btn-hover-bg: var(--leaf-accent-600);
+  --bs-btn-hover-border-color: var(--leaf-accent-600);
+  --bs-btn-focus-shadow-rgb: 182, 206, 180;
+}
+
+.card-leaf {
+  background-color: var(--leaf-surface);
+  border: 1px solid var(--leaf-border);
+  box-shadow: var(--leaf-shadow);
+  border-radius: 16px;
+}
+
+.text-muted-leaf { color: var(--leaf-muted-text); }
+
+/* Utility for responsive max width containers */
+.container-narrow {
+  max-width: 960px;
+}

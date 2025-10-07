@@ -1,0 +1,40 @@
+# ==============================
+# Angular (Frontend)
+# ==============================
+/dist/
+node_modules/
+src/environments/environment.ts
+src/environments/environment.prod.ts
+.angular/
+*.log
+
+# ==============================
+# Python (Backend)
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+.env
+venv/
+.venv/
+env/
+ENV/
+*.egg-info/
+*.egg
+build/
+develop-eggs/
+.eggs/
+.installed.cfg
+
+# ==============================
+# OS / IDE
+# ==============================
+.DS_Store
+.vscode/
+.idea/
+backend/.env
+backend/.env
+backend/.env
